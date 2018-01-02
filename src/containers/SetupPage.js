@@ -86,7 +86,7 @@ class SetupPage extends React.Component {
             <textarea
               style={{width: '100%'}}
               onChange={(e) => this.setState({ tempSecretPhrase: e.target.value })}
-              className="textarea" rows="3" placeholder="Secret mnemonic phrase"
+              className="textarea" rows="3" placeholder="Secret phrase"
             >
             </textarea>
           </p>

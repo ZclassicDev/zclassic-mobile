@@ -71,7 +71,8 @@
     "stylus-loader": "^3.0.1",
     "url-loader": "^0.5.9",
     "webpack": "^3.5.5",
-    "webpack-dev-server": "^2.7.1"
+    "webpack-dev-server": "^2.7.1",
+    "zclassicjs": "git://github.com/BTCP-community/zclassicjs.git"
   },
   "dependencies": {
     "cordova-android": "^6.2.3",
@@ -85,8 +86,7 @@
     "cordova-plugin-qrscanner": "^2.5.0",
     "cordova-plugin-whitelist": "^1.3.3",
     "cordova-plugin-wkwebview-engine": "^1.1.4",
-    "danielsogl-cordova-plugin-clipboard": "^1.0.2",
-    "zencashjs": "^1.1.9-a"
+    "danielsogl-cordova-plugin-clipboard": "^1.0.2"
   },
   "cordova": {
     "plugins": {

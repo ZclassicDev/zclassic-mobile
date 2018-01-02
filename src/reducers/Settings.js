@@ -12,7 +12,7 @@ import {
 } from '../actions/Settings'
 
 const initialSettings = {
-  insightAPI: 'http://myzcl.com/',
+  insightAPI: 'http://myzcl.com/api/',
   explorerURL: 'http://myzcl.com/',
   language: LANG_ENGLISH,
   currency: CURRENCY_USD,

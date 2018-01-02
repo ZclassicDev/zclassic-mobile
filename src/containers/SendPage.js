@@ -17,7 +17,7 @@ import {
   ListHeader
 } from 'react-onsenui'
 
-import zencashjs from 'zencashjs'
+import zclassicjs from 'zclassicjs'
 
 import { bindActionCreators } from 'redux'
 import { connect } from 'react-redux'
@@ -268,7 +268,7 @@ class SendPage extends React.Component {
     }
 
     // Private key
-    const senderPrivateKey = zencashjs.address.WIFToPrivKey(this.props.context.privateKey)
+    const senderPrivateKey = zclassicjs.address.WIFToPrivKey(this.props.context.privateKey)
 
     // Get previous transactions
     const prevTxURL = urlAppend(this.props.settings.insightAPI, 'addr/') + senderAddress + '/utxo'
@@ -340,15 +340,15 @@ class SendPage extends React.Component {
                 }
 
                 // Create transaction
-                var txObj = zencashjs.transaction.createRawTx(history, recipients, blockHeight, blockHash)
+                var txObj = zclassicjs.transaction.createRawTx(history, recipients, blockHeight, blockHash)
 
                 // Sign each history transcation
                 for (var j = 0; j < history.length; j++) {
-                  txObj = zencashjs.transaction.signTx(txObj, j, senderPrivateKey, true)
+                  txObj = zclassicjs.transaction.signTx(txObj, j, senderPrivateKey, true)
                 }
 
                 // Convert it to hex string
-                const txHexString = zencashjs.transaction.serializeTx(txObj)
+                const txHexString = zclassicjs.transaction.serializeTx(txObj)
 
                 // Post it to the api
                 axios.post(sendRawTxURL,

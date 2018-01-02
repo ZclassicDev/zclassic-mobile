@@ -57,7 +57,7 @@ class SelectInsightPage extends React.Component {
           <ListItem tappable onClick={() => this.props.setInsightAPI('http://explorer.zclmine.pro/')}>
             zclmine.pro
           </ListItem>
-          <ListItem tappable onClick={() => this.props.setInsightAPI('http://myzcl.com/')}>
+          <ListItem tappable onClick={() => this.props.setInsightAPI('http://myzcl.com/api/')}>
             myzcl.com
           </ListItem>
         </List>
