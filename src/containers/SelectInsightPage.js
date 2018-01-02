@@ -51,14 +51,14 @@ class SelectInsightPage extends React.Component {
           <ListHeader>
             Preconfigured Nodes
           </ListHeader>
-          <ListItem tappable onClick={() => this.props.setInsightAPI('http://explorer.zclmine.pro/')}>
-            zclassic.org (coming soon)
-          </ListItem>
-          <ListItem tappable onClick={() => this.props.setInsightAPI('http://explorer.zclmine.pro/')}>
-            zclmine.pro
-          </ListItem>
           <ListItem tappable onClick={() => this.props.setInsightAPI('http://myzcl.com/api/')}>
-            myzcl.com
+            explorer.zclassic.org (coming soon)
+          </ListItem>
+          <ListItem tappable onClick={() => this.props.setInsightAPI('http://explorer.zclmine.pro/api/')}>
+            explorer.zclmine.pro
+          </ListItem>
+          <ListItem tappable onClick={() => this.props.setInsightAPI('http://explorer.myzcl.com/api/')}>
+            explorer.myzcl.com
           </ListItem>
         </List>
       </Page>
