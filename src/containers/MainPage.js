@@ -165,7 +165,7 @@ class MainPage extends React.Component {
     this.props.setZclInBtcValue(null)
     this.props.setZclInCurrencyValue(null)
 
-    // How many zen
+    // How many zcl
     const addrURL = urlAppend(this.props.settings.insightAPI, 'addr/' + address + '/')
     axios.get(addrURL)
       .then((resp) => {

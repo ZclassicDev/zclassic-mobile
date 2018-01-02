@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.zensystem.zencashwallet" version="0.0.12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="org.zclassic.zclassicwallet" version="0.0.12" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>Zclassic Wallet</name>
     <description>
         Zclassic (ZCL) Wallet
     </description>
     <author email="kendricktan0814@gmail.com" href="https://kndrck.co">
-        Zclassic &amp; Kendrick Tan of zensystem.io
+        Zclassic, original code by Kendrick Tan of zensystem.io
     </author>
     <content src="index.html" />
     <access origin="*" />
