@@ -13,7 +13,7 @@ export const PORTUGUESE_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Saída'
   },
   MainPage: {
-    title: 'Carteira ZEN',
+    title: 'Carteira ZCL',
     value: 'Valor',
     send: 'Enviar',
     received: 'Recebido',
@@ -25,7 +25,7 @@ export const PORTUGUESE_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Copiar Endereço para a Área de Transferência'
   },
   SendPage: {
-    title: 'Enviar ZEN',
+    title: 'Enviar ZCL',
     payTo: 'Pagar Para',
     amountToPay: 'Montante a pagar',
     balance: 'Saldo',
@@ -38,12 +38,12 @@ export const PORTUGUESE_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Max',
     send: 'Enviar',
     txSuccessful: 'Transação bem sucedida! Clique aqui para ver sua transação.',
-    confirmSend: 'Eu quero enviar estes ZEN',
+    confirmSend: 'Eu quero enviar estes ZCL',
     invalidAddress: '`Endereço de destino` Inválido. Apenas endereços transparentes são suportados neste momento.',
     invalidAmount: '`Quantia` Inválida.',
     invalidFee: '`Taxas` Inválidas. Tente 0 :)',
     zeroAmount: 'Quantia deve ser maior que 0.',
-    notEnoughZEN: 'Não existe quantidade suficiente de ZEN confirmadas na conta para fazer essa transação.',
+    notEnoughZCL: 'Não existe quantidade suficiente de ZCL confirmadas na conta para fazer essa transação.',
     noCameraPermissions: 'Sem permissão de câmera. Você pode habilitar o acesso à câmera nas configurações.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const PORTUGUESE_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Alterar PIN',
-    newPinPageTitle: 'Configuração da carteira de ZEN',
-    verifyPinPageTitle: 'Verificação do Pin da Carteira ZEN',
+    newPinPageTitle: 'Configuração da carteira de ZCL',
+    verifyPinPageTitle: 'Verificação do Pin da Carteira ZCL',
     setupNewPin: 'Configure um novo PIN',
     reenterPin: 'Confirme seu PIN',
     pinsNotSimilar: 'PINs digitados não conferem',

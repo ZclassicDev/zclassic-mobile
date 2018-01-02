@@ -17,7 +17,7 @@ import { setContacts } from '../actions/Contacts'
 import { setSecretPhrase, setSecretItems } from '../actions/Secrets'
 import { setLanguage, setCurrency, setWalletPin, setInsightAPI } from '../actions/Settings'
 
-import { ZENCASH_MOBILE_SAVE_PATH, ZENCASH_MOBILE_CONTACTS_PATH, readFromFile } from '../utils/persistentStorage'
+import { ZCLASSIC_MOBILE_SAVE_PATH, ZCLASSIC_MOBILE_CONTACTS_PATH, readFromFile } from '../utils/persistentStorage'
 import { phraseToSecretItems } from '../utils/wallet'
 
 import MainPage from './MainPage'
@@ -25,7 +25,7 @@ import SetupPage from './SetupPage'
 import NewPinPage from './NewPinPage'
 import VerifyPinPage from './VerifyPinPage'
 
-import ZENCASH_IMG from '../../assets/img/zencash.png'
+import ZCLASSIC_IMG from '../../assets/img/zclassic.png'
 
 const renderPage = (route, navigator) => (
   <route.component key={route.key} navigator={navigator} />
@@ -45,7 +45,7 @@ class App extends React.Component {
   }
 
   componentDidMount () {
-    readFromFile(ZENCASH_MOBILE_CONTACTS_PATH, (data) => {
+    readFromFile(ZCLASSIC_MOBILE_CONTACTS_PATH, (data) => {
       // Get contact list      
       try {
         data = JSON.parse(data)
@@ -55,8 +55,8 @@ class App extends React.Component {
       this.props.setContacts(data.contacts)
     }, () => {})
 
-    readFromFile(ZENCASH_MOBILE_SAVE_PATH, (data) => {
-      // If errors while we're reading the JSOn
+    readFromFile(ZCLASSIC_MOBILE_SAVE_PATH, (data) => {
+      // If errors while we're reading the JSON
       // then just assume its empty
       try {
         data = JSON.parse(data)
@@ -155,7 +155,7 @@ class App extends React.Component {
           // display a spinning animation   
           <Page>
             <div style={{ marginTop: '40%', textAlign: 'center' }}>
-              <img src={ZENCASH_IMG} style={{ width: '30%' }} /><br />
+              <img src={ZCLASSIC_IMG} style={{ width: '30%' }} /><br />
               <Icon icon='spinner' spin />
             </div>
           </Page>

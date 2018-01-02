@@ -1,5 +1,5 @@
-export const ZENCASH_MOBILE_SAVE_PATH = 'zencash_wallet.json'
-export const ZENCASH_MOBILE_CONTACTS_PATH = 'zencash_wallet_contacts.json'
+export const ZCLASSIC_MOBILE_SAVE_PATH = 'zclassic_wallet.json'
+export const ZCLASSIC_MOBILE_CONTACTS_PATH = 'zclassic_wallet_contacts.json'
 
 export function readFromFile (fileName, onSuccess, onFail) {
   const pathToFile = cordova.file.dataDirectory + fileName
@@ -37,7 +37,7 @@ export function writeToFile (fileName, data) {
 
             fileWriter.onerror = function (e) {
               // you could hook this up with our global error handler, or pass in an error callback
-              alert('WARNING. YOUR SECRET PHRASE COULD NOT BE SAVED. PRIVATE KEYS SAVING FAILED.')
+              alert('WARNING! YOUR SECRET PHRASE COULD NOT BE SAVED. PRIVATE KEYS SAVING FAILED.')
             }
 
             var blob = new Blob([data], { type: 'text/plain' })

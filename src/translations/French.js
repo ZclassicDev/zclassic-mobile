@@ -13,7 +13,7 @@ export const FRENCH_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Sortant'
   },
   MainPage: {
-    title: 'Porte-Monnaie ZEN',
+    title: 'Porte-Monnaie ZCL',
     value: 'Valeur',
     send: 'Envoi',
     received: 'Reçu',
@@ -25,7 +25,7 @@ export const FRENCH_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Copier l\'adresse dans le presse-papier'
   },
   SendPage: {
-    title: 'Envoyer ZEN',
+    title: 'Envoyer ZCL',
     payTo: 'Payer à',
     amountToPay: 'Montant à payer',
     balance: 'Balance',
@@ -38,12 +38,12 @@ export const FRENCH_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Maximum',
     send: 'Envoyer',
     txSuccessful: 'Transaction effectuée avec succès! Cliquez ici pour voir votre transaction.',
-    confirmSend: 'Je veux envoyer ces ZEN',
+    confirmSend: 'Je veux envoyer ces ZCL',
     invalidAddress: '`To Address` invalide. Seules les transactions transparentes sont actuellement supportées.',
     invalidAmount: '`Amount` invalide.',
     invalidFee: '`Fees` invalides. Essayez 0 :)',
     zeroAmount: 'Le montant doit être supérieur à 0.',
-    notEnoughZEN: 'Pas assez de ZEN confirmés sur le compte pour effectuer cette transaction.',
+    notEnoughZCL: 'Pas assez de ZCL confirmés sur le compte pour effectuer cette transaction.',
     noCameraPermissions: 'Pas de permissions pour accéder à l\'appareil photo. Vous pouvez autoriser l\'accès à la caméra dans vos paramètres.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const FRENCH_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Changer le code PIN',
-    newPinPageTitle: 'Configuration du Porte-Monnaie ZEN',
-    verifyPinPageTitle: 'Vérification du code PIN du Porte-Monnaie ZEN',
+    newPinPageTitle: 'Configuration du Porte-Monnaie ZCL',
+    verifyPinPageTitle: 'Vérification du code PIN du Porte-Monnaie ZCL',
     setupNewPin: 'Configurer un nouveau code PIN',
     reenterPin: 'Répéter votre code PIN',
     pinsNotSimilar: 'Les codes PIN entrés ne correspondent pas',

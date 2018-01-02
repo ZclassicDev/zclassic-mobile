@@ -13,7 +13,7 @@ export const INDONESIAN_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Luar'
   },
   MainPage: {
-    title: 'Dompet ZEN',
+    title: 'Dompet ZCL',
     value: 'Nilai',
     send: 'Kirim',
     received: 'Diterima',
@@ -25,7 +25,7 @@ export const INDONESIAN_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Salin Alamat Ke Clipboard'
   },
   SendPage: {
-    title: 'Kirim ZEN',
+    title: 'Kirim ZCL',
     payTo: 'Membayar',
     amountToPay: 'Jumlah Yang Harus Dibayar',
     balance: 'Keseimbangan',
@@ -38,12 +38,12 @@ export const INDONESIAN_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Maks',
     send: 'Kirim',
     txSuccessful: 'Transaksi berhasil! Klik disini untuk melihat transaksi anda.',
-    confirmSend: 'Saya ingin mengirim ZEN ini',
+    confirmSend: 'Saya ingin mengirim ZCL ini',
     invalidAddress: 'Tidak valid `Ke alamat` Hanya alamat transparan yang didukung pada saat ini.',
     invalidAmount: '`Jumlah` tidak valid.',
     invalidFee: 'Tidak berlaku `biaya`. Coba 0 :)',
     zeroAmount: 'Jumlah harus lebih besar dari 0.',
-    notEnoughZEN: 'Belum cukup konfirmasi ZEN di akun untuk melakukan transaksi.',
+    notEnoughZCL: 'Belum cukup konfirmasi ZCL di akun untuk melakukan transaksi.',
     noCameraPermissions: 'Tidak ada izin kamera. Anda dapat mengizinkan akses kamera di pengaturan Anda.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const INDONESIAN_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Ubah PIN',
-    newPinPageTitle: 'Penyiapan Dompet ZEN',
-    verifyPinPageTitle: 'Verifikasi Pin Dompet ZEN',
+    newPinPageTitle: 'Penyiapan Dompet ZCL',
+    verifyPinPageTitle: 'Verifikasi Pin Dompet ZCL',
     setupNewPin: 'Pasang Pin bar',
     reenterPin: 'Masukkan kembali PIN Anda',
     pinsNotSimilar: 'PIN yang dimasukkan tidak cocok',

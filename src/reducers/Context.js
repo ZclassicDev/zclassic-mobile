@@ -7,8 +7,8 @@ import {
   SET_PRIVATE_KEY,
   SET_ADDRESS_VALUE,
   SET_QR_SCANNING,
-  SET_ZEN_IN_BTC_VALUE,
-  SET_ZEN_IN_CURRENCY_VALUE,
+  SET_ZCL_IN_BTC_VALUE,
+  SET_ZCL_IN_CURRENCY_VALUE,
   SET_HAS_INPUT_PIN
 } from '../actions/Context'
 
@@ -30,12 +30,12 @@ export default function ContextReducer (state = initialContext, action) {
         hasInputPin: action.hasInputPin
       })
 
-    case SET_ZEN_IN_BTC_VALUE:
+    case SET_ZCL_IN_BTC_VALUE:
       return Object.assign({}, state, {
         BTCValue: action.BTCValue
       })
 
-    case SET_ZEN_IN_CURRENCY_VALUE:
+    case SET_ZCL_IN_CURRENCY_VALUE:
       return Object.assign({}, state, {
         currencyValue: action.currencyValue
       })

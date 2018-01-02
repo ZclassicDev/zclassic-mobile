@@ -13,7 +13,7 @@ export const RUSSIAN_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Ушло' // still sounds wrong but I've checked a lot of different BTC wallets and it's really bad everywhere.
   },
   MainPage: {
-    title: 'ZEN кошелек',
+    title: 'ZCL кошелек',
     value: 'На счету',
     send: 'Отправить',
     received: 'Получено',
@@ -25,7 +25,7 @@ export const RUSSIAN_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Скопировать адрес'
   },
   SendPage: {
-    title: 'Отправить ZEN',
+    title: 'Отправить ZCL',
     payTo: 'Заплатить на',
     amountToPay: 'Сумма к оплате',
     balance: 'Баланс',
@@ -38,12 +38,12 @@ export const RUSSIAN_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Макс',
     send: 'Отправить',
     txSuccessful: 'Транзакция успешна! Кликните сюда чтобы просмотреть транзакцию.',
-    confirmSend: 'Да, Я хочу отправить ZEN',
+    confirmSend: 'Да, Я хочу отправить ZCL',
     invalidAddress: 'Неверный адрес. Пока поддерживаются только прозрачные адреса.',
     invalidAmount: 'Неверная сумма.',
     invalidFee: 'Неверная комиссия.',
-    zeroAmount: 'Количество ZEN должно быть больше 0.',
-    notEnoughZEN: 'На кошельке недостаточно подтвержденного ZEN для транзакции.',
+    zeroAmount: 'Количество ZCL должно быть больше 0.',
+    notEnoughZCL: 'На кошельке недостаточно подтвержденного ZCL для транзакции.',
     noCameraPermissions: 'Камера не разрешена. Вы можете разрешить доступ к камере в настройках.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const RUSSIAN_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Изменить PIN',
-    newPinPageTitle: 'Настройка ZEN кошелька',
-    verifyPinPageTitle: 'ZEN кошелек подтверждение PIN',
+    newPinPageTitle: 'Настройка ZCL кошелька',
+    verifyPinPageTitle: 'ZCL кошелек подтверждение PIN',
     setupNewPin: 'Введите новый PIN',
     reenterPin: 'Повторите ваш PIN',
     pinsNotSimilar: 'Введеные PIN-ы не совпадают',

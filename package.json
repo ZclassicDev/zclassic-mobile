@@ -1,7 +1,7 @@
 {
   "name": "zencash-mobile",
   "version": "0.0.12",
-  "description": "Mobile Wallet for ZENCash",
+  "description": "Mobile Wallet for Zclassic",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --host 0.0.0.0 --progress --content-base www/",
@@ -16,7 +16,7 @@
   "bugs": {
     "url": "https://github.com/ZencashOfficial/zencash-mobile/issues"
   },
-  "homepage": "https://zensystem.io",
+  "homepage": "http://zclassic.org",
   "devDependencies": {
     "autoprefixer": "^7.1.3",
     "axios": "^0.17.1",

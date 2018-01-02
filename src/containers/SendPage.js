@@ -84,7 +84,7 @@ class SendPage extends React.Component {
     }
 
     this.handleQRScan = this.handleQRScan.bind(this)
-    this.handleSendZEN = this.handleSendZEN.bind(this)
+    this.handleSendZCL = this.handleSendZCL.bind(this)
     this.handleSendValueChange = this.handleSendValueChange.bind(this)
     this.handleSendCurrencyValueChange = this.handleSendCurrencyValueChange.bind(this)
     this.setProgressValue = this.setProgressValue.bind(this)
@@ -97,7 +97,7 @@ class SendPage extends React.Component {
   }
 
   // Handles conversion between
-  // zen and fiat and sets sendValue
+  // zcl and fiat and sets sendValue
   handleSendValueChange (e) {
     const str = e.target.value
     const sendVal = parseFloat(str)
@@ -218,7 +218,7 @@ class SendPage extends React.Component {
     }.bind(this))
   }
 
-  handleSendZEN () {
+  handleSendZCL () {
     // Language stuff
     const CUR_LANG = this.props.settings.language
 
@@ -232,10 +232,10 @@ class SendPage extends React.Component {
     const satoshisToSend = Math.round(value * 100000000)
     const satoshisfeesToSend = Math.round(fee) // fees already in satoshis
 
-    // Reset zen send progress
+    // Reset zcl send progress
     this.setProgressValue(1)
 
-    // Reset zen send progress
+    // Reset zcl send progress
     // Alert messages too
     var errString = ''
 
@@ -327,7 +327,7 @@ class SendPage extends React.Component {
                 // If we don't have enough address
                 // fail and tell user
                 if (satoshisSoFar < satoshisToSend + satoshisfeesToSend) {
-                  alert(TRANSLATIONS[CUR_LANG].SendPage.notEnoughZEN)
+                  alert(TRANSLATIONS[CUR_LANG].SendPage.notEnoughZCL)
                   this.setProgressValue(0)
                   return
                 }
@@ -522,7 +522,7 @@ class SendPage extends React.Component {
                     <span style={{ fontSize: '12px', color: '#7f8c8d' }}>
                       {balanceLang}:&nbsp;
                       {prettyFormatPrices(this.props.context.value)}&nbsp;
-                    ZEN
+                    ZCL
                     </span>
                     <Input
                       onChange={this.handleSendValueChange}
@@ -530,7 +530,7 @@ class SendPage extends React.Component {
                       placeholder={amountLang}
                       style={{ width: '100%' }}
                     /><br />
-                    ZEN
+                    ZCL
                   </ons-col>
                   <ons-col width={'10%'}>
                     <br />
@@ -583,7 +583,7 @@ class SendPage extends React.Component {
                   <ons-col width={'5%'}></ons-col>
                   <ons-col width={'47.5%'}>
                     <Button
-                      onClick={() => this.handleSendZEN()}
+                      onClick={() => this.handleSendZCL()}
                       disabled={!this.state.confirmSend || (this.state.progressValue > 0)}
                       style={{ width: '100%', height: '50px', paddingTop: '7px' }}>{sendLang}</Button>
                   </ons-col>

@@ -13,7 +13,7 @@ export const FINNISH_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Lähtevä'
   },
   MainPage: {
-    title: 'ZEN Wallet',
+    title: 'ZCL Wallet',
     value: 'Arvo',
     send: 'Lähetä',
     received: 'Vastaanotettu',
@@ -25,7 +25,7 @@ export const FINNISH_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Kopioi osoite leikepöydälle'
   },
   SendPage: {
-    title: 'Lähetä ZEN',
+    title: 'Lähetä ZCL',
     payTo: 'Vastaanottaja',
     amountToPay: 'Lähetettävä määrä',
     balance: 'Saldo',
@@ -38,12 +38,12 @@ export const FINNISH_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Max',
     send: 'Lähetä',
     txSuccessful: 'Lähetys onnistunut! Tästä painamalla näet tapahtuman.',
-    confirmSend: 'Haluan lähettää nämä ZEN',
+    confirmSend: 'Haluan lähettää nämä ZCL',
     invalidAddress: 'Virheellinen vastaanottajan osoite. Vain läpinäkyvät osoitteet on sallittu.',
     invalidAmount: 'Virheellinen määrä.',
     invalidFee: 'Virheellinen palkkio. Valitse 0 :)',
     zeroAmount: 'Määrän täytyy olla enemmän kuin 0.',
-    notEnoughZEN: 'Lähetysosoitteen vahvistettu saldo ei riitä tapahtuman toteuttamiseen.',
+    notEnoughZCL: 'Lähetysosoitteen vahvistettu saldo ei riitä tapahtuman toteuttamiseen.',
     noCameraPermissions: 'Ei lupaa kameran käyttöön. Voit sallia kameran käytön puhelimen asetuksista.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const FINNISH_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Vaihda PIN',
-    newPinPageTitle: 'ZEN Wallet määrittäminen',
-    verifyPinPageTitle: 'ZEN Wallet PIN-kysely',
+    newPinPageTitle: 'ZCL Wallet määrittäminen',
+    verifyPinPageTitle: 'ZCL Wallet PIN-kysely',
     setupNewPin: 'Anna uusi PIN',
     reenterPin: 'Vahvista uusi PIN',
     pinsNotSimilar: 'Annetut PIN-luvut eivät täsmää',

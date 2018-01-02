@@ -13,7 +13,7 @@ export const GERMAN_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Ausgehend'
   },
   MainPage: {
-    title: 'ZEN Wallet',
+    title: 'ZCL Wallet',
     value: 'Wert',
     send: 'Senden',
     received: 'Erhalten',
@@ -25,7 +25,7 @@ export const GERMAN_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'In die Zwischenablage kopieren'
   },
   SendPage: {
-    title: 'Sende ZEN',
+    title: 'Sende ZCL',
     payTo: 'Zahle an',
     amountToPay: 'Zu bezahlender Betrag',
     balance: 'Guthaben',
@@ -38,12 +38,12 @@ export const GERMAN_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Maximum',
     send: 'Senden',
     txSuccessful: 'Transaktion erfolgreich! Drücken Sie hier um die Transaktion einzusehen.',
-    confirmSend: 'Ich möchte diese ZEN senden',
+    confirmSend: 'Ich möchte diese ZCL senden',
     invalidAddress: 'Ungültige Empfängeradresse. Nur transparente (öffentliche) Adressen werden derzeit unterstüzt.',
     invalidAmount: 'Ungültiger Betrag.',
     invalidFee: 'Ungültige Gebühren. Versuchen Sie 0 :)',
     zeroAmount: 'Betrag muss größer als 0 sein.',
-    notEnoughZEN: 'Nicht genügend bestätigte ZEN im Benutzerkonto, um diese Transaktion auszuführen.',
+    notEnoughZCL: 'Nicht genügend bestätigte ZCL im Benutzerkonto, um diese Transaktion auszuführen.',
     noCameraPermissions: 'Keine Berechtigungen zur Kameranutzung. Diese Funktion kann in den Einstellungen geändert werden.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const GERMAN_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'PIN ändern',
-    newPinPageTitle: 'ZEN Brieftasche einrichten',
-    verifyPinPageTitle: 'ZEN Wallet PIN Verifizierung',
+    newPinPageTitle: 'ZCL Brieftasche einrichten',
+    verifyPinPageTitle: 'ZCL Wallet PIN Verifizierung',
     setupNewPin: 'Neue PIN festlegen',
     reenterPin: 'PIN erneut eingeben',
     pinsNotSimilar: 'PINs stimmen nicht überein',

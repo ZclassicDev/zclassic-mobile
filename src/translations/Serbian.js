@@ -13,7 +13,7 @@ export const SERBIAN_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Izlaz'
   },
   MainPage: {
-    title: 'ZEN Novčanik',
+    title: 'ZCL Novčanik',
     value: 'Vrednost',
     send: 'Pošalji',
     received: 'Primljene',
@@ -25,7 +25,7 @@ export const SERBIAN_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Prekopiraj Adresu na Clipboard'
   },
   SendPage: {
-    title: 'Pošalji ZEN',
+    title: 'Pošalji ZCL',
     payTo: 'Plati',
     amountToPay: 'Suma Za Plaćanje',
     balance: 'Balans',
@@ -38,12 +38,12 @@ export const SERBIAN_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Max',
     send: 'Pošalji',
     txSuccessful: 'Uspešna transakcija! Kliknite ovde da vidite vašu transakciju.',
-    confirmSend: 'Želim da pošaljem ove ZEN',
+    confirmSend: 'Želim da pošaljem ove ZCL',
     invalidAddress: 'Nevažeća `Za Adresu` Samo transparentne adrese su trenutno podržane.',
     invalidAmount: 'Nevažeća `Suma`.',
     invalidFee: 'Nevažeća `Provizije`. Probajte 0 :)',
     zeroAmount: 'Suma mora biti veća od 0.',
-    notEnoughZEN: 'Nedovoljno potvrđenih ZEN na nalogu da bi se obavila transakcija.',
+    notEnoughZCL: 'Nedovoljno potvrđenih ZCL na nalogu da bi se obavila transakcija.',
     noCameraPermissions: 'Nema dozvole za kameru. Možete dozvoliti pristup kameri u vašim podešavanjima.'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const SERBIAN_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Promeni PIN',
-    newPinPageTitle: 'Podešavanje ZEN Novčanika',
-    verifyPinPageTitle: 'ZEN Novčanik PIN Verifikacija',
+    newPinPageTitle: 'Podešavanje ZCL Novčanika',
+    verifyPinPageTitle: 'ZCL Novčanik PIN Verifikacija',
     setupNewPin: 'Postavite novi PIN',
     reenterPin: 'Ponovo unesite PIN',
     pinsNotSimilar: 'Uneti PINovi se ne slažu',

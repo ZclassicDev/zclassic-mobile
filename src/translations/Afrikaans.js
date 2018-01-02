@@ -13,7 +13,7 @@ export const AFRIKAANS_TRANSLATION: TRANSLATION_OBJ = {
     out: 'Uit'
   },
   MainPage: {
-    title: 'ZEN Beursie',
+    title: 'ZCL Beursie',
     value: 'Waarde',
     send: 'Gestuur',
     received: 'Ontvang',
@@ -25,7 +25,7 @@ export const AFRIKAANS_TRANSLATION: TRANSLATION_OBJ = {
     copyToClipboard: 'Kopieer Adres na Klipbord'
   },
   SendPage: {
-    title: 'Stuur ZEN',
+    title: 'Stuur ZCL',
     payTo: 'Betaal Aan',
     amountToPay: 'Bedrag Om Te Betaal',
     balance: 'Balans',
@@ -38,12 +38,12 @@ export const AFRIKAANS_TRANSLATION: TRANSLATION_OBJ = {
     max: 'Maksimum',
     send: 'Stuur',
     txSuccessful: 'Transkripsie suksesvol! Klik hier om jou transaksie te sien',
-    confirmSend: 'Ek wil hierdie ZEN stuur',
+    confirmSend: 'Ek wil hierdie ZCL stuur',
     invalidAddress: 'Ongeldige `Na Adres`. Slegs deursigtige adresse word ondersteun op hierdie tydstip',
     invalidAmount: 'Ongeldige `Bedrag`',
     invalidFee: 'Ongeldige `Fooi`. Probeer 0 :)',
     zeroAmount: 'Bedrag moet meer as 0 wees',
-    notEnoughZEN: 'Nie genoeg ZEN om die transaksie uit te voer nie',
+    notEnoughZCL: 'Nie genoeg ZCL om die transaksie uit te voer nie',
     noCameraPermissions: 'Geen kamera toestemmings nie. U kan die kamera toestemmings in u instellings toelaat'
   },
   TxDetailPage: {
@@ -79,8 +79,8 @@ export const AFRIKAANS_TRANSLATION: TRANSLATION_OBJ = {
   },
   PinPage: {
     changePinTitle: 'Verander PIN',
-    newPinPageTitle: 'Opstel van ZEN Beursie',
-    verifyPinPageTitle: 'ZEN Beursie PIN Verifikasie',
+    newPinPageTitle: 'Opstel van ZCL Beursie',
+    verifyPinPageTitle: 'ZCL Beursie PIN Verifikasie',
     setupNewPin: 'Stel nuwe PIN op',
     reenterPin: 'Voer jou PIN weer in',
     pinsNotSimilar: 'PINs wat ingevoer word, stem nie ooreen nie',

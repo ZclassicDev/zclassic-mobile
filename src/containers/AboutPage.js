@@ -11,6 +11,8 @@ import {
 
 import TRANSLATIONS from '../translations'
 
+import ZCLASSIC_BANNER from '../../assets/img/zclassic_banner.png'
+
 class RecoverWalletPage extends React.Component {
   componentDidMount() {    
     window.ga.trackView('About Page')
@@ -35,14 +37,16 @@ class RecoverWalletPage extends React.Component {
     return (
       <Page renderToolbar={this.renderToolbar.bind(this)}>
         <div style={{padding: '12px 12px 0 12px', textAlign: 'center'}}>
-          <p>ZEN Wallet v{VERSION}</p>
+          <p>Zclassic Wallet v{VERSION}</p>
           <br/>
-          <p>Author: Kendrick Tan</p>
-          <p>Made for zensystem.io</p>
-          <p>Found a bug? File it &nbsp;
+          <img src={ZCLASSIC_BANNER} width='100'/>
+          <br/>
+          <p>Made for Zclassic</p>
+          <p>Original Author: Kendrick Tan, of zensystem.io</p>
+          <p>Found a bug? File it&nbsp;
             <a
               href='#'
-              onClick={() => window.open('https://github.com/zencashofficial/zencash-mobile/issues', '_system')}
+              onClick={() => window.open('https://github.com/zencashofficial/zencash-mobile/issues', '_system')} //TODO
             >here</a>
           </p>
         </div>

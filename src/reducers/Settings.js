@@ -12,8 +12,8 @@ import {
 } from '../actions/Settings'
 
 const initialSettings = {
-  insightAPI: 'https://explorer.zensystem.io/insight-api-zen/',
-  explorerURL: 'https://explorer.zensystem.io/',
+  insightAPI: 'http://myzcl.com/insight-api/',
+  explorerURL: 'http://myzcl.com/',
   language: LANG_ENGLISH,
   currency: CURRENCY_USD,
   pin: null
